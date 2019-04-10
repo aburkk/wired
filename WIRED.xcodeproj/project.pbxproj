@@ -12,8 +12,6 @@
 		B91E572A208B5DAF00E40AE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B91E5728208B5DAF00E40AE4 /* Main.storyboard */; };
 		B91E572C208B5DAF00E40AE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B91E572B208B5DAF00E40AE4 /* Assets.xcassets */; };
 		B91E572F208B5DAF00E40AE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B91E572D208B5DAF00E40AE4 /* LaunchScreen.storyboard */; };
-		B91E573A208B5DAF00E40AE4 /* WIREDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91E5739208B5DAF00E40AE4 /* WIREDTests.swift */; };
-		B91E5745208B5DAF00E40AE4 /* WIREDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91E5744208B5DAF00E40AE4 /* WIREDUITests.swift */; };
 		B91E5753208B659500E40AE4 /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91E5752208B659500E40AE4 /* ArticleCell.swift */; };
 		B91E5755208B685700E40AE4 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91E5754208B685700E40AE4 /* Article.swift */; };
 		B91E5757208B92C600E40AE4 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91E5756208B92C600E40AE4 /* WebViewController.swift */; };
@@ -45,11 +43,7 @@
 		B91E572E208B5DAF00E40AE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B91E5730208B5DAF00E40AE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B91E5735208B5DAF00E40AE4 /* WIREDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WIREDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B91E5739208B5DAF00E40AE4 /* WIREDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WIREDTests.swift; sourceTree = "<group>"; };
-		B91E573B208B5DAF00E40AE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B91E5740208B5DAF00E40AE4 /* WIREDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WIREDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B91E5744208B5DAF00E40AE4 /* WIREDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WIREDUITests.swift; sourceTree = "<group>"; };
-		B91E5746208B5DAF00E40AE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B91E5752208B659500E40AE4 /* ArticleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
 		B91E5754208B685700E40AE4 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		B91E5756208B92C600E40AE4 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
@@ -84,8 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				B91E5723208B5DAE00E40AE4 /* WIRED */,
-				B91E5738208B5DAF00E40AE4 /* WIREDTests */,
-				B91E5743208B5DAF00E40AE4 /* WIREDUITests */,
 				B91E5722208B5DAE00E40AE4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -114,24 +106,6 @@
 				B91E5730208B5DAF00E40AE4 /* Info.plist */,
 			);
 			path = WIRED;
-			sourceTree = "<group>";
-		};
-		B91E5738208B5DAF00E40AE4 /* WIREDTests */ = {
-			isa = PBXGroup;
-			children = (
-				B91E5739208B5DAF00E40AE4 /* WIREDTests.swift */,
-				B91E573B208B5DAF00E40AE4 /* Info.plist */,
-			);
-			path = WIREDTests;
-			sourceTree = "<group>";
-		};
-		B91E5743208B5DAF00E40AE4 /* WIREDUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B91E5744208B5DAF00E40AE4 /* WIREDUITests.swift */,
-				B91E5746208B5DAF00E40AE4 /* Info.plist */,
-			);
-			path = WIREDUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,7 +254,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B91E573A208B5DAF00E40AE4 /* WIREDTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +261,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B91E5745208B5DAF00E40AE4 /* WIREDUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
